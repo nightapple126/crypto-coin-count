@@ -1,0 +1,14 @@
+{
+  "root": "build/",
+  "routes": {
+    "/": "index.html",
+    "/sync": "index.html",
+    "/about": "index.html"
+
+  },
+  "headers": {
+    "/service-worker.js": {
+      "Cache-Control": "no-store, no-cache, max-age=0"
+    }
+  }
+}
